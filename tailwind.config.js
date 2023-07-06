@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-blue': '#010324',
         
      },
      fontFamily: {
-      sans: ['Lexend'],
-     },
+      sans: ['Roboto', 'sans-serif'],
+      libre: ['Libre Baskerville', 'serif'],
+    },
     },
   },
   plugins: [],

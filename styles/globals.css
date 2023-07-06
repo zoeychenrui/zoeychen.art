@@ -1,5 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono|Roboto:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item:hover::after,
+.nav-item.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right; /* Changed this */
+  transition: transform 0.25s ease-out; /* Added this */
+}
+
+body {
+  transition: background 2s;
+}
+
+#gradientBackground {
+  background: linear-gradient(180deg, black,#1E2341, #1D3E6B, #21618F, #48AACF, white);
+  transition: background 2s;
+}
+

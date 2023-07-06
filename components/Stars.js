@@ -6,10 +6,10 @@ const Stars = ({ children }) => {
   useEffect(() => {
     const createCircles = () => {
       const newCircles = [];
-      const numCircles = 200;
+      const numCircles = 500;
       const maxCircleSize = 5;
-      const minCircleSize = 2;
-      const minDistance = 2 * maxCircleSize;
+      const minCircleSize = 1;
+      const minDistance = 0.5 * maxCircleSize;
       const existingCoordinates = new Set();
       for (let i = 0; i < numCircles; i++) {
         let x, y, distance;
@@ -25,8 +25,8 @@ const Stars = ({ children }) => {
           }
         } while (distance < minDistance);
         const circleSize = Math.floor(Math.random() * maxCircleSize) + minCircleSize;
-        const animationDelay = Math.random() * 5;
-        const animationDuration = Math.floor(Math.random() * 5) + 5;
+        const animationDelay = Math.random() * 4;
+        const animationDuration = Math.floor(Math.random() * 4) + 4;
         newCircles.push({ circleSize, x, y, animationDelay, animationDuration });
         existingCoordinates.add([x, y]);
       }
@@ -46,12 +46,12 @@ const Stars = ({ children }) => {
           style={{
             position: "absolute",
             borderRadius: "50%",
-            backgroundColor: "white",
+            backgroundColor: "#FAFAFA",
             width: circle.circleSize,
             height: circle.circleSize,
             top: circle.y,
             left: circle.x,
-            opacity: 1,
+            opacity: 0.9,
             animationName: "circle-animation",
             animationDelay: `${circle.animationDelay}s`,
             animationDuration: `${circle.animationDuration}s`,
@@ -69,7 +69,7 @@ const Stars = ({ children }) => {
             opacity: 0.1;
           }
           100% {
-            opacity: 1;
+            opacity: 0.9;
           }
         }
       `}</style>
