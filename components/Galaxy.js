@@ -8,7 +8,7 @@ export default function GalaxyBackground() {
               <stop offset="0%" stopColor="#3ABAB4" stopOpacity="1" />
               <stop offset="100%" stopColor="white" stopOpacity="0.2" />
             </radialGradient>
-            <radialGradient id="galaxyGradient2" cx="20%" cy="70%" r="60%">
+            <radialGradient id="galaxyGradient2" cx="20%" cy="70%" r="40%">
               <stop offset="0%" stopColor="#9094D1" stopOpacity="1" />
               <stop offset="100%" stopColor="white" stopOpacity="0.2" />
             </radialGradient>

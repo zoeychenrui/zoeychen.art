@@ -5,7 +5,9 @@ import GalaxyBackground from '../components/Galaxy';
 function media() {
   return (
     <div>
-      <GalaxyBackground className="min-h-screen"/>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
+        <GalaxyBackground />
+      </div>
       <Navbar />
       <div className="relative flex flex-col mt-10">
       <div className="flex flex-col w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16">
@@ -19,7 +21,7 @@ function media() {
           </div>
           <div className="flex flex-row mt-4">
             <div className="w-1/2 mr-2">
-              <img src="media/drawing.png" alt="drawing" 
+              <img src="media/drawing.jpg" alt="drawing" 
               className="w-full border border-gray-400"></img>
             </div>
             <div className="w-1/2">
