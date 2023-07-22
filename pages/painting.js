@@ -1,12 +1,11 @@
 import React from 'react'
 
-function self() {
+function painting() {
   return (
     <div>
-      hi
+      
     </div>
   )
 }
 
-export default self
-
+export default painting

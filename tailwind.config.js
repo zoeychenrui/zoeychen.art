@@ -11,8 +11,8 @@ module.exports = {
         
      },
      fontFamily: {
-      sans: ['Roboto', 'sans-serif'],
-      libre: ['Libre Baskerville', 'serif'],
+      sans: ['Karla', 'sans-serif'],
+   
     },
     },
   },
