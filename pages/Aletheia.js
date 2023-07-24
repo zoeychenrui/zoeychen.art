@@ -25,7 +25,7 @@ function Aletheia() {
             <div className="mt-8 text-sm md:text-md lg:text-lg mr-8 text-gray-500">
             We as humans are shaped by our lived experiences. We are the product of every one of our decisions, adventures, mistakes, encounters, trials, and errors.
 The inconvenience of forgetting. The forgetting of who you are.
-This was the inspiration for Aletheia, a virtual reality experience uses space as a physical manifestation of dementia.
+This was the inspiration for Aletheia, a virtual reality experience which uses space as a physical manifestation of dementia.
             <br />
             <br />
             The intentions of this project were not explicitly set on dementia as an illness, but the experience of the world and reality coming apart before you. The user didn’t need to come out of the experience understanding our initial inspiration in a literal sense, but to understand –in a glimpse– the horror of identifying, experiencing, and accepting that reality and who you are is peeling away before your very eyes.
@@ -35,7 +35,7 @@ This was the inspiration for Aletheia, a virtual reality experience uses space a
             <br />
             <br />
             Once we’d finished researching the context and inspiration for our project, we iterated through numerous sketches and ideas for what would be included in the room, how we would lay it out,
-and how parts would shift and change through user interaction (aka the mechanics). The audio, we decided, was best fitted and most impactful as a more subtle, nondistinct feature. We ultimately selected a clock ticking subtly in the background in order to add sense of passing time within the experience while simultaneously adding to the feeling of normalicy. The objects and room itself are intentionally cozy and homey. Alzeimer’s and dementia are shockingly common, impacting numerous normal, everyday people in horrific, terrifying ways.
+and how parts would shift and change through user interaction (aka the mechanics). The audio, we decided, was best fitted and most impactful as a more subtle, nondistinct feature. We ultimately selected a clock ticking subtly in the background in order to add sense of passing time within the experience while simultaneously adding to the feeling of normalcy. The objects and room itself are intentionally cozy and homey. Alzeimer’s and dementia are shockingly common, impacting numerous normal, everyday people in horrific, terrifying ways.
             <br />
             <br />
             We ultimately decided Aletheia would be a seated experiences, with the primary interaction mechanism taking place through sight. This interaction is cued to the user implicitly through a subtle spotlight that follows where the person is looking directionally. The primary mechanic was the distortion of the models through interaction, which was done using code in Unity with the help of Dave Zelensky.

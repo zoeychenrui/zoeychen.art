@@ -64,7 +64,7 @@ function Navbar() {
             >
               <i className="">x</i>
             </button>
-            <ul className="flex flex-col space-y-4 items-center">
+            <ul className="flex flex-col space-y-4 items-center font-light">
               <li
                 className="cursor-pointer text-3xl mt-16"
                 onClick={() => handleNavLinkClick("/")}
