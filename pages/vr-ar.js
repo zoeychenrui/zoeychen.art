@@ -42,9 +42,9 @@ function media() {
 
           <div className="mt-12">
             <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
-              onClick={() => handleNavLinkClick("/Αλήθεια")}
+              onClick={() => handleNavLinkClick("/Aletheia")}
               >
-            Αλήθεια / VIRTUAL REALITY
+            Aletheia / VIRTUAL REALITY
             </div>
             <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
             Experience of the world and reality coming apart before you
@@ -57,7 +57,7 @@ function media() {
             </div>
           </div>
 
-          <div className="mt-12">
+          <div className="mt-12 ">
             <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
               onClick={() => handleNavLinkClick("/Reverie")}
               >
@@ -67,7 +67,7 @@ function media() {
             Problems in each world force users to go further in VR to escape
             </div>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 mb-12">
             <div className="cursor-pointer">
               <img src="media/reverie.png" alt="reverie" 
               className="w-full border border-gray-400"></img>
