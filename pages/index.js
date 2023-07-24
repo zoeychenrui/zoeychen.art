@@ -40,7 +40,9 @@ export default function Home() {
 
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
-          <div className="w-1/2 cursor-pointer">
+          <div className="w-1/2 cursor-pointer"
+          onClick={() => handleNavLinkClick("/C3forMe")}
+          >
             <img src="covers/c3forme.png" alt="c3forme" className="border border-gray-400"></img>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12 justify-center">
@@ -56,7 +58,9 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16">
-          <div className="w-1/2 cursor-pointer">
+          <div className="w-1/2 cursor-pointer"
+          onClick={() => handleNavLinkClick("/OpenDesignStudio")}
+          >
             <img src="covers/opendesign.png" alt="opendesign" className="border border-gray-400"></img>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12  justify-center">
@@ -72,7 +76,9 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
-          <div className="w-1/2 cursor-pointer">
+          <div className="w-1/2 cursor-pointer"
+           onClick={() => handleNavLinkClick("/GABRIEL")}
+          >
             <img src="covers/gabriel.png" alt="gabriel" className="border border-gray-400"></img>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12 justify-center">

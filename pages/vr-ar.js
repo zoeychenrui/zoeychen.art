@@ -23,7 +23,9 @@ function media() {
             A nostalgic connection to a childhood pastime
             </div>
           </div>
-          <div className="flex flex-row mt-4 cursor-pointer">
+          <div className="flex flex-row mt-4 cursor-pointer"
+          onClick={() => handleNavLinkClick("/Doodle")}
+          >
             <div className="w-1/2 mr-2 flex">
               <img
                 src="media/drawing.jpg"
@@ -51,7 +53,9 @@ function media() {
             </div>
           </div>
           <div className="mt-4">
-            <div className="cursor-pointer">
+            <div className="cursor-pointer"
+            onClick={() => handleNavLinkClick("/Aletheia")}
+            >
               <img src="media/aletheia.png" alt="reverie" 
               className="w-full border border-gray-400"></img>
             </div>
@@ -68,7 +72,9 @@ function media() {
             </div>
           </div>
           <div className="mt-4 mb-12">
-            <div className="cursor-pointer">
+            <div className="cursor-pointer"
+            onClick={() => handleNavLinkClick("/Reverie")}
+            >
               <img src="media/reverie.png" alt="reverie" 
               className="w-full border border-gray-400"></img>
             </div>
