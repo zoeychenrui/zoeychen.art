@@ -28,7 +28,7 @@ function Navbar() {
     <nav className="h-16 flex items-center justify-between p-6 text-gray-800 font-libre relative">
         <ul className="absolute hidden md:flex space-x-8 ml-8 mt-2 items-center text-lg font-light left-5">
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/")}`} onClick={() => handleNavLinkClick("/")}>
-            product
+            work
             </li>
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/painting")}`} onClick={() => handleNavLinkClick("/painting")}>
             painting

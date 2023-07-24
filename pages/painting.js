@@ -14,10 +14,6 @@ function painting() {
 
   return (
     <div>
-      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
-        <GalaxyBackground />
-      </div>
-      <Navbar />
       <div className="mt-10 relative mx-auto w-[40%] md:w-[20%] lg:w-[15%]">
       <button
         className="mb-12 border-dark-gray border-b transition-transform"
