@@ -81,7 +81,7 @@ export default function Home() {
             >
               GABRIEL
             </div>
-            <div className="mt-4 text-xs md:text-lg lg:text-xl font-light">
+            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
             Developing the client and web interface for a data research tool 
             </div>
           </div>

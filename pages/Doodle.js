@@ -5,13 +5,13 @@ function Doodle() {
     <div className="w-[80%] mx-auto ">
       <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 ml-2">Doodle / AUGMENTED REALITY</div>
       <div className="flex flex-col mt-12 mb-10">
-      <div className=" cursor-pointer flex flex-col md:flex-row">
-            <div className="flex-grow mr-3 ml-3 mb-3 ">
+      <div className="flex flex-col md:flex-row">
+            <div className="mr-3 ml-3 mb-3 ">
             <img src="media/drawing.jpg" alt="drawing" className="mt-3 object-cover"></img>
               <img src="media/drawingaction.jpg" alt="drawingaction" className="mt-3 object-cover"></img>
               <img src="media/shoulder3.jpg" alt="shoulder3" className="mt-3  object-cover"></img>
             </div>
-            <div className="flex-grow">
+            <div className="">
             <img src="media/shoulder2.jpg" alt="shoulder2" className="mt-3 object-cover"></img>
             <img src="media/user2.jpg" alt="user2" className="mt-3 object-cover"></img>
             <img src="media/map.jpg" alt="map" className="mt-3  object-cover"></img>

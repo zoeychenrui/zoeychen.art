@@ -2,6 +2,7 @@ import Head from 'next/head';
 import '@/styles/globals.css';
 import GalaxyBackground from '../components/Galaxy';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function App({ Component, pageProps }) {
   return <>
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <GalaxyBackground />
       </div>
       <Component {...pageProps} />
+      <Footer />
   </>
 
 }

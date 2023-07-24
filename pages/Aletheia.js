@@ -5,15 +5,15 @@ function Aletheia() {
     <div className="w-[80%] mx-auto ">
       <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 ml-2">Aletheia / VIRTUAL REALITY</div>
       <div className="flex flex-col mt-12 mb-10">
-      <div className=" cursor-pointer flex flex-col md:flex-row">
-            <div className="flex-grow mr-3 ml-3 mb-3 ">
+      <div className="flex flex-col md:flex-row">
+            <div className="mr-3 ml-3 mb-3 ">
               <img src="media/aletheia.png" alt="aletheia" className="mt-3 object-cover"></img>
               <img src="media/VR2.png" alt="aletheia" className="mt-3 object-cover"></img>
               <img src="media/VR3.png" alt="aletheia" className="mt-3  object-cover"></img>
               <img src="media/VR7.png" alt="aletheia" className="mt-3 object-cover"></img>
               <img src="media/VR8.png" alt="aletheia" className="mt-3  object-cover"></img>
             </div>
-            <div className="flex-grow">
+            <div className="">
             <img src="media/VR4.png" alt="aletheia" className="mt-3 object-cover"></img>
             <img src="media/VR5.png" alt="aletheia" className="mt-3 object-cover"></img>
             <img src="media/VR6.png" alt="aletheia" className="mt-3  object-cover"></img>

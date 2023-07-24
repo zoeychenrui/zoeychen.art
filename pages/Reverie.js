@@ -5,19 +5,14 @@ function Reverie() {
     <div className="w-[80%] mx-auto ">
       <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12">Reverie / VIRTUAL REALITY</div>
       <div className="flex flex-col mt-12 mb-10">
-      <div className=" cursor-pointer flex flex-col md:flex-row">
-            <div className="flex-grow mr-3 ml-3 mb-3 ">
-              <img src="media/L1.png" alt="L1" className="mt-3 object-cover"></img>
-              <img src="media/L2.png" alt="L2" className="mt-3 object-cover"></img>
-            
-            </div>
-            <div className="flex-grow">
-            
+      <div className="flex flex-col">
+         
+            <img src="media/L1.png" alt="L1" className="mt-3 object-cover"></img>
+            <img src="media/L2.png" alt="L2" className="mt-3 object-cover"></img>
             <img src="media/L3.png" alt="L3" className="mt-3  object-cover"></img>
             <img src="media/reverie.png" alt="L4" className="mt-3 object-cover "></img>
             <img src="media/L0.png" alt="L0" className="mt-3  object-cover"></img>
-          
-            </div>
+      
           </div>
       <div className="">
             <div className="text-sm md:text-md lg:text-lg mr-8 text-gray-500 mt-8">
