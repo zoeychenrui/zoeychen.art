@@ -51,7 +51,7 @@ function Originals() {
           />
           <Piece
             src="originals/pear-cat-art.jpg"
-            src2="originals/pear-cat-pic.png"
+            src2="originals/pear-cat-pic.PNG"
             text="pear cat"
             path="/originals"
           />
