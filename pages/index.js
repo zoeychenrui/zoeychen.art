@@ -93,6 +93,24 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
+          <div className="w-1/2 cursor-pointer"
+           onClick={() => handleNavLinkClick("/RMC-Academy")}
+          >
+            <img src="covers/rmc.jpg" alt="rmc" className="border border-gray-400"></img>
+          </div>
+          <div className="w-1/2 pl-6 lg:pl-12 justify-center">
+            <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+            onClick={() => handleNavLinkClick("/RMC-Academy")}
+            >
+              RMC Academy
+            </div>
+            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
+            
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
