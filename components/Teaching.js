@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import storage from "./Config";
+import { listAll, getDownloadURL } from 'firebase/storage';
+import { ref } from 'firebase/storage';
+import { storage } from './Config';
 
 
 function Teaching() {
@@ -93,11 +95,6 @@ function Teaching() {
       date: '4.5.2020'
     },
     {
-      name: 'panda',
-      folder: 'pandaClass/',
-      date: '4.5.2020'
-    },
-    {
       name: 'sunflowers',
       folder: 'sunflowersClass/',
       date: '4.26.2020'
@@ -118,11 +115,6 @@ function Teaching() {
       date: '6.14.2020'
     },
     {
-      name: 'abstract flowers',
-      folder: 'abstractFlowersClass/',
-      date: '6.14.2020'
-    },
-    {
       name: 'flowers',
       folder: 'flowersClass/',
       date: '4.12.2020'
@@ -131,11 +123,6 @@ function Teaching() {
       name: 'birds',
       folder: 'birds/',
       date: '9.6.2020'
-    },
-    {
-      name: 'flowers',
-      folder: 'flowersClass/',
-      date: '4.12.2020'
     },
     {
       name: 'lotus flower',
@@ -216,52 +203,59 @@ function Teaching() {
 
   const handleGalleryClick = (gallery) => {
     setSelectedGallery(gallery);
+    setImages([]); // Reset images state
+    getFromFirebase(gallery.folder);
   };
 
-  const getFromFirebase = (id) => {
-  let storageRef = storage.ref().child(id);
-  storageRef.listAll().then(function (res) {
-      res.items.forEach((imageRef) => {
-        imageRef.getDownloadURL().then((url) => {
-            setImages((allImages) => [...allImages, url]);
-        });
+  const getFromFirebase = (folder) => {
+    const folderRef = ref(storage, folder);
+  
+    listAll(folderRef)
+      .then(async (res) => {
+        const urlPromises = res.items.map(imageRef => getDownloadURL(imageRef));
+        const urls = await Promise.all(urlPromises);
+        setImages(urls);
+      })
+      .catch((error) => {
+        console.error(`Error while retrieving images from folder "${folder}": `, error);
       });
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-};
+  };
 console.log(allImages);
 
 useEffect(() => {
-  getFromFirebase();
- 
-}, []);
+}, [selectedGallery]);
+
   return (
     <div>
 
-    <div className={`flex w-[95%] md:w-[85%] lg:w-[70%] mx-auto mt-12 lg:mt-24 mb-48 `}>
-  <div className="w-[35%] p-4 mr-2 md:mr-6 lg:mr-24">
-    <h2 className="text-xl font-bold mb-4 px-2 mt-2 text-white">Galleries</h2>
+    <div className={`flex w-[95%] md:w-[85%] mx-auto mt-12 lg:mt-24 mb-48 `}>
+  <div className="w-[35%] p-4 mr-2 md:mr-6">
+    <h2 className="text-xl font-bold mb-4 px-2 mt-2">Galleries</h2>
     <ul>
       {galleries.map((gallery, index) => (
         <li
           key={index}
           className={`py-2 px-2 cursor-pointer ${
-            selectedGallery === gallery ? 'font-bold ' : 'font-light'
-          }`}
-          onClick={() => handleGalleryClick(activity)}
+    selectedGallery && selectedGallery.folder === gallery.folder ? 'font-bold ' : 'font-light'
+  }`}
+          onClick={() => handleGalleryClick(gallery)}
         >
-          {gallery.name}
+          {gallery.name} {gallery.date}
         </li>
       ))}
     </ul>
   </div>
-  <div className="w-[65%] p-4">
+  <div className="w-[50%]">
     {selectedGallery ? (
       <>
-        <h2 className={`text-xl font-bold mb-4`}>{selectedGallery.name}</h2>
-        
+        <h2 className={`text-md md:text-lg lg:text-xl font-bold mb-4`}>{selectedGallery.name} {selectedGallery.date}</h2>
+        <div className="flex flex-wrap">
+  {allImages.map((url, index) => (
+    <div className="w-full sm:w-1/2 md:w-1/3 p-1" key={index}>
+      <img src={url} alt="From Firebase" className="w-full h-auto"/>
+    </div>
+  ))}
+</div>
       </>
     ) : (
       <p className="text-xl">Select a class to see the student gallery</p>
