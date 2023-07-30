@@ -230,13 +230,13 @@ useEffect(() => {
 
     <div className={`flex w-[95%] md:w-[85%] mx-auto mt-12 lg:mt-24 mb-48 `}>
   <div className="w-[35%] p-4 mr-2 md:mr-6">
-    <h2 className="text-xl font-bold mb-4 px-2 mt-2">Galleries</h2>
+    <h2 className="text-md md:text-lg lg:text-xl mb-4 px-2 mt-2 ">Galleries</h2>
     <ul>
       {galleries.map((gallery, index) => (
         <li
           key={index}
-          className={`py-2 px-2 cursor-pointer ${
-    selectedGallery && selectedGallery.folder === gallery.folder ? 'font-bold ' : 'font-light'
+          className={`py-2 px-2 cursor-pointer font-light ${
+    selectedGallery && selectedGallery.folder === gallery.folder ? 'text-gray-800 ' : 'text-gray-400'
   }`}
           onClick={() => handleGalleryClick(gallery)}
         >
@@ -248,7 +248,7 @@ useEffect(() => {
   <div className="w-[50%]">
     {selectedGallery ? (
       <>
-        <h2 className={`text-md md:text-lg lg:text-xl font-bold mb-4`}>{selectedGallery.name} {selectedGallery.date}</h2>
+        <h2 className={`text-md md:text-lg lg:text-xl mb-4 font-light`}>{selectedGallery.name} {selectedGallery.date}</h2>
         <div className="flex flex-wrap">
   {allImages.map((url, index) => (
     <div className="w-full sm:w-1/2 md:w-1/3 p-1" key={index}>
@@ -258,7 +258,7 @@ useEffect(() => {
 </div>
       </>
     ) : (
-      <p className="text-xl">Select a class to see the student gallery</p>
+      <p className="text-md md:text-lg lg:text-xl font-light">Select a class to see the student gallery</p>
     )}
   </div>
 </div>

@@ -23,23 +23,26 @@ function media() {
             A nostalgic connection to a childhood pastime
             </div>
           </div>
-          <div className="flex flex-row mt-4 cursor-pointer"
+          <div className="flex flex-row mt-4 cursor-pointer relative overflow-hidden"
           onClick={() => handleNavLinkClick("/Doodle")}
           >
             <div className="w-1/2 mr-2 flex">
               <img
                 src="media/drawing.jpg"
                 alt="drawing"
-                className="w-full object-cover"
+                className="w-full object-cover transition-all duration-500 ease-in-out"
               />
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
             </div>
             <div className="w-1/2 flex">
               <img
                 src="media/drawingaction.jpg"
                 alt="drawing action"
-                className="w-full object-cover"
+                className="w-full object-cover transition-all duration-500 ease-in-out"
               />
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
             </div>
+            
         </div>
 
           <div className="mt-12">
@@ -53,11 +56,12 @@ function media() {
             </div>
           </div>
           <div className="mt-4">
-            <div className="cursor-pointer"
+          <div className="cursor-pointer relative overflow-hidden"
             onClick={() => handleNavLinkClick("/Aletheia")}
             >
               <img src="media/aletheia.png" alt="reverie" 
-              className="w-full border border-gray-400"></img>
+              className="w-full transition-all duration-500 ease-in-out"></img>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
             </div>
           </div>
 
@@ -72,11 +76,12 @@ function media() {
             </div>
           </div>
           <div className="mt-4 mb-12">
-            <div className="cursor-pointer"
+          <div className="cursor-pointer relative overflow-hidden"
             onClick={() => handleNavLinkClick("/Reverie")}
             >
               <img src="media/reverie.png" alt="reverie" 
-              className="w-full border border-gray-400"></img>
+              className="w-full object-cover transition-all duration-500 ease-in-out"></img>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
             </div>
           </div>
           

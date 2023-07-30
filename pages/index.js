@@ -40,28 +40,29 @@ export default function Home() {
 
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
-          <div className="w-1/2 cursor-pointer"
-          onClick={() => handleNavLinkClick("/C3forMe")}
-          >
-            <img src="covers/c3forme.png" alt="c3forme" className="border border-gray-400"></img>
+        <div className="w-1/2 cursor-pointer relative overflow-hidden"
+            onClick={() => handleNavLinkClick("/C3forMe")}>
+          <img src="covers/c3forme.png" alt="c3forme" className="transition-all duration-500 ease-in-out"/>
+          <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+        </div>
+        <div className="w-1/2 pl-6 lg:pl-12 justify-center">
+          <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+              onClick={() => handleNavLinkClick("/C3forMe")}>
+            C3forMe
           </div>
-          <div className="w-1/2 pl-6 lg:pl-12 justify-center">
-            <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
-            onClick={() => handleNavLinkClick("/C3forMe")}
-            >
-              C3forMe
-            </div>
-            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
+          <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
             Promoting independence for individuals with neurodisabilities through conversation and self-reflection
-            </div>
           </div>
         </div>
+      </div>
+
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16">
-          <div className="w-1/2 cursor-pointer"
+          <div className="w-1/2 cursor-pointer relative overflow-hidden"
           onClick={() => handleNavLinkClick("/OpenDesignStudio")}
           >
-            <img src="covers/opendesign.png" alt="opendesign" className="border border-gray-400"></img>
+            <img src="covers/opendesign.png" alt="opendesign" className="transition-all duration-500 ease-in-out"></img>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12  justify-center">
             <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
@@ -76,10 +77,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
-          <div className="w-1/2 cursor-pointer"
+        <div className="w-1/2 cursor-pointer relative overflow-hidden"
            onClick={() => handleNavLinkClick("/GABRIEL")}
           >
-            <img src="covers/gabriel.png" alt="gabriel" className="border border-gray-400"></img>
+            <img src="covers/gabriel.png" alt="gabriel" className="transition-all duration-500 ease-in-out"></img>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12 justify-center">
             <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
@@ -94,10 +96,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
-          <div className="w-1/2 cursor-pointer"
+        <div className="w-1/2 cursor-pointer relative overflow-hidden"
            onClick={() => handleNavLinkClick("/RMC-Academy")}
           >
-            <img src="covers/rmc.jpg" alt="rmc" className="border border-gray-400"></img>
+            <img src="covers/rmc.jpg" alt="rmc" className="transition-all duration-500 ease-in-out"></img>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
           </div>
           <div className="w-1/2 pl-6 lg:pl-12 justify-center">
             <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
