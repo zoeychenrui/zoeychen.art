@@ -13,7 +13,7 @@ function C3forMe() {
       <div className="mt-6 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
       Tools: Figma, Next.js, Tailwind CSS, Firebase Authentication, Firestore
       </div>
-      <img src="covers/c3forme.png" alt="c3forme" className="mt-6 rounded-md shadow-lg shadow-gray-200"/>
+      <img src="covers/c3forme.png" alt="c3forme" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
           PROJECT OVERVIEW
       </div>

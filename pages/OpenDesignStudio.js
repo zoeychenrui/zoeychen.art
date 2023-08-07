@@ -13,7 +13,7 @@ function OpenDesignStudio() {
       <div className="mt-6 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
       Tools: Figma, Canva, Google docs/slides
       </div>
-      <img src="covers/opendesign.png" alt="opendesign" className="mt-6 rounded-md shadow-lg shadow-gray-200"/>
+      <img src="covers/opendesign.png" alt="opendesign" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
           PROJECT OVERVIEW
       </div>
