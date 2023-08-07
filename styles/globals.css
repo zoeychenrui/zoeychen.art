@@ -42,3 +42,10 @@ body {
   transition: background 2s;
 }
 
+.contentContainer {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+

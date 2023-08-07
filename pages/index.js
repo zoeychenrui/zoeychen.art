@@ -51,7 +51,7 @@ export default function Home() {
           <img src="covers/c3forme.png" alt="c3forme" className="transition-all duration-500 ease-in-out"/>
           <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
         </div>
-        <div className="md:w-1/2 md:pl-6 lg:pl-12 md:justify-center">
+        <div className="md:w-1/2 md:pl-6 lg:pl-12 md:justify-center md">
           <div className="hidden md:block">
               <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
                   <div>WEB APPLICATION</div>
@@ -95,7 +95,7 @@ export default function Home() {
               Open Design Studio
             </div>
             <div className="mt-4 text-lg md:text-xl font-light">
-            Refreshing the visual identity of Open Design, an equity-focused design and innovation methodology
+            Refreshing the visual identity of Open Design's equity focused innovation methodology
             </div>
           </div>
         </div>
