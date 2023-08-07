@@ -148,7 +148,7 @@ export default function Home() {
           <div className="hidden md:block">
               <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
                   <div>GRAPHIC DESIGN</div>
-                  <div>2023</div>
+                  <div>2021 - 23</div>
               </div>
           </div>
             <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"

@@ -53,10 +53,10 @@ function Navbar() {
             </a>
         </div>
         {isMobileMenuOpen && (
-            <div>
+            <div >
           
             <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-white">
-            <GalaxyBackground /> 
+           
           <div className="relative flex flex-col py-8 px-4 space-y-6">
             <button
               className="text-5xl mr-4 absolute right-10 top-10 font-extralight"
@@ -66,25 +66,25 @@ function Navbar() {
             </button>
             <ul className="flex flex-col space-y-4 items-center font-light">
               <li
-                className="cursor-pointer text-3xl mt-16"
+                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/")}`} 
                 onClick={() => handleNavLinkClick("/")}
               >
                 work
               </li>
               <li
-                className="cursor-pointer text-3xl pt-10"
+                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/painting")}`} 
                 onClick={() => handleNavLinkClick("/painting")}
               >
                 painting
               </li>
               <li
-                className="cursor-pointer text-3xl pt-10"
+               className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/vr-ar")}`} 
                 onClick={() => handleNavLinkClick("/vr-ar")}
               >
                 VR/AR
               </li>
               <li
-                className="cursor-pointer text-3xl pt-10"
+                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} 
                 onClick={() => handleNavLinkClick("/resume")}
               >
                 resume
@@ -108,7 +108,7 @@ function Navbar() {
         
       )}
       <button
-        className="md:hidden text-5xl mr-4 absolute right-10 top-10 font-extralight"
+        className="md:hidden text-5xl mr-4 absolute right-10 top-10 font-extralight cursor-pointer"
         onClick={handleMobileMenuToggle}
       >
         <i className="">+</i>

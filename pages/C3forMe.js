@@ -3,8 +3,8 @@ import React from 'react'
 function C3forMe() {
   return (
     <div>
-    <div className="flex flex-col justify-center w-[90%] md:w-[70%] lg:w-[60%] mx-auto">
-      <div className="mt-20 text-gray-400 text-3xl md:text-4xl lg:text-5xl text-center">
+    <div className="mt-20 flex flex-col justify-center w-[90%] md:w-[70%] lg:w-[60%] mx-auto">
+      <div className=" text-gray-400 text-3xl md:text-4xl lg:text-5xl text-center">
           Promoting equity in education, one conversation at a time!
       </div>
       <div className="mt-10 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
