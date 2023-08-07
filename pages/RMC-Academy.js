@@ -3,10 +3,10 @@ import React from 'react'
 function rmc() {
   return (
     <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto">
-        <div className="text-xl md:text-2xl lg:text-3xl text-gray-500 mt-12 mb-4 ml-2 font-light">
-            Art of Sciences Camp Yearbooks
+        <div className="mt-20 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+            CAMP YEARBOOKS
         </div>
-          <div className="flex flex-row mt-4">
+          <div className="flex flex-row mt-6">
             <div className="w-1/3 mr-2 flex">
               <img
                 src="rmc/2021yearbook.png"
@@ -29,10 +29,10 @@ function rmc() {
               />
             </div>
         </div>
-        <div className="text-xl md:text-2xl lg:text-3xl text-gray-500 mt-12 mb-4 ml-2 font-light">
-            Art of Sciences Camp Flyers
+        <div className="mt-20 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+            CAMP FLYERS
         </div>
-          <div className="flex flex-row mt-4">
+          <div className="flex flex-row mt-6">
             <div className="w-1/2 mr-4 flex">
               <img
                 src="rmc/2022campflyer.jpg"
@@ -48,10 +48,10 @@ function rmc() {
               />
             </div>
         </div>
-        <div className="text-xl md:text-2xl lg:text-3xl text-gray-500 mt-12 mb-4 ml-2 font-light">
-            Art of Sciences Camp Certificates
+        <div className="mt-20 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+            CERTIFICATES
         </div>
-          <div className="flex flex-row mt-4">
+          <div className="flex flex-row mt-6">
             <div className="w-1/2 mr-4 flex">
               <img
                 src="rmc/2022certificate.jpg"
@@ -67,10 +67,10 @@ function rmc() {
               />
             </div>
         </div>
-        <div className="text-xl md:text-2xl lg:text-3xl text-gray-500 mt-12 mb-4 ml-2 font-light">
-            Rochester Math Festival Flyers
+        <div className="mt-20 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+            RMF FLYERS
         </div>
-          <div className="flex flex-row mt-4">
+          <div className="flex flex-row mt-6">
             <div className="w-1/2 mr-4 flex">
               <img
                 src="rmc/2021rmf.png"
@@ -85,6 +85,9 @@ function rmc() {
                 className="w-full object-cover"
               />
             </div>
+        </div>
+        <div className="h-20">
+
         </div>
     </div>
   )

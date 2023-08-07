@@ -4,7 +4,7 @@ function C3forMe() {
   return (
     <div>
     <div className="flex flex-col justify-center w-[90%] md:w-[70%] lg:w-[60%] mx-auto">
-      <div className="mt-20 text-gray-500 text-3xl md:text-4xl lg:text-5xl text-center">
+      <div className="mt-20 text-gray-400 text-3xl md:text-4xl lg:text-5xl text-center">
           Promoting equity in education, one conversation at a time!
       </div>
       <div className="mt-10 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
@@ -23,9 +23,9 @@ function C3forMe() {
 Tasked with the challenge of translating this concept into a tangible digital experience, I spearheaded the software development phase. Collaborating closely with the Founder and CEO of C3forMe, Dr. Janae Duclos, and special education professionals, we created an intuitive application tailored for its unique audience.
 <br/><br/>
 In a focused development cycle, we rolled out a web application that not only offers a diverse range of prompts and cues but also allows students to record and revisit their dialogues. 
-<div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
-          UNDERSTANDING THE USER
       </div>
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+          UNDERSTANDING THE USER
       </div>
     </div>
       
