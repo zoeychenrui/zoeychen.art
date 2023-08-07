@@ -22,7 +22,7 @@
   left: 0;
   background-color: gray;
   transform-origin: bottom left;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.4s ease-out;
 }
 
 .nav-item::after {
@@ -35,7 +35,7 @@
   left: 0;
   background-color: gray;
   transform-origin: bottom right; /* Changed this */
-  transition: transform 0.25s ease-out; /* Added this */
+  transition: transform 0.4s ease-out; /* Added this */
 }
 
 body {

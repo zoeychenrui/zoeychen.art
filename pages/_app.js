@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
         <title>Zoey Chen</title>
       </Head>
       <Navbar />
-      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100vh', zIndex: -1 }}>
         <GalaxyBackground />
       </div>
       <Component {...pageProps} />

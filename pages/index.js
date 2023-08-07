@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className="flex flex-row">
           <div className="w-1/2">
-          <h1 className="font-libre font-light text-xl md:text-2xl lg:text-3xl text-gray-800 mx-auto leading-relaxed ml-[20%] md:ml-[30%]" style={{ lineHeight: "1.5"}}>
+          <h1 className="font-libre font-light text-2xl md:text-3xl lg:text-4xl text-gray-800 mx-auto leading-relaxed ml-[20%] md:ml-[30%]" style={{ lineHeight: "1.5"}}>
             Zoey Chen is a developer,
             <br />
             designer, painter,
@@ -39,76 +39,124 @@ export default function Home() {
         </div>
 
 
-        <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
-        <div className="w-1/2 cursor-pointer relative overflow-hidden"
+        <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
+        <div className="block md:hidden">
+            <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                <div>WEB APPLICATION</div>
+                <div>2023</div>
+            </div>
+        </div>
+        <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
             onClick={() => handleNavLinkClick("/C3forMe")}>
           <img src="covers/c3forme.png" alt="c3forme" className="transition-all duration-500 ease-in-out"/>
-          <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
         </div>
-        <div className="w-1/2 pl-6 lg:pl-12 justify-center">
-          <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+        <div className="md:w-1/2 md:pl-6 lg:pl-12 md:justify-center">
+          <div className="hidden md:block">
+              <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                  <div>WEB APPLICATION</div>
+                  <div>2023</div>
+              </div>
+          </div>
+          <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
               onClick={() => handleNavLinkClick("/C3forMe")}>
             C3forMe
           </div>
-          <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
-            Promoting independence for individuals with neurodisabilities through conversation and self-reflection
+          <div className="mt-4 text-lg md:text-xl font-light">
+          Promoting equity in education, one conversation at a time!
           </div>
         </div>
       </div>
 
 
-        <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16">
-          <div className="w-1/2 cursor-pointer relative overflow-hidden"
+        <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
+        <div className="block md:hidden">
+            <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                <div>GRAPHIC DESIGN</div>
+                <div>2023</div>
+            </div>
+        </div>
+          <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
           onClick={() => handleNavLinkClick("/OpenDesignStudio")}
           >
             <img src="covers/opendesign.png" alt="opendesign" className="transition-all duration-500 ease-in-out"></img>
-            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
           </div>
-          <div className="w-1/2 pl-6 lg:pl-12  justify-center">
-            <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+          <div className="md:w-1/2 md:pl-6 lg:pl-12  justify-center">
+          <div className="hidden md:block">
+              <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                  <div>GRAPHIC DESIGN</div>
+                  <div>2023</div>
+              </div>
+          </div>
+            <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
             onClick={() => handleNavLinkClick("/OpenDesignStudio")}
             >
               Open Design Studio
             </div>
-            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
+            <div className="mt-4 text-lg md:text-xl font-light">
             Refreshing the visual identity of Open Design, an equity-focused design and innovation methodology
             </div>
           </div>
         </div>
 
-        <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
-        <div className="w-1/2 cursor-pointer relative overflow-hidden"
+        <div className="flex flex-col md:flex-row  w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20 mb-10">
+        <div className="block md:hidden">
+            <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                <div>WEB APPLICATION</div>
+                <div>2023</div>
+            </div>
+        </div>
+        <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
            onClick={() => handleNavLinkClick("/GABRIEL")}
           >
             <img src="covers/gabriel.png" alt="gabriel" className="transition-all duration-500 ease-in-out"></img>
-            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
           </div>
-          <div className="w-1/2 pl-6 lg:pl-12 justify-center">
-            <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+          <div className="md:w-1/2 md:pl-6 lg:pl-12 justify-center">
+          <div className="hidden md:block">
+              <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                  <div>WEB APPLICATION</div>
+                  <div>2023</div>
+              </div>
+          </div>
+            <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
             onClick={() => handleNavLinkClick("/GABRIEL")}
             >
               GABRIEL
             </div>
-            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
+            <div className="mt-4 text-lg md:text-xl font-light">
             Developing the client and web interface for a data research tool 
             </div>
           </div>
         </div>
 
-        <div className="flex flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-16 mb-10">
-        <div className="w-1/2 cursor-pointer relative overflow-hidden"
+        <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20 mb-10">
+        <div className="block md:hidden">
+            <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                <div>GRAPHIC DESIGN</div>
+                <div>2023</div>
+            </div>
+        </div>
+        <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
            onClick={() => handleNavLinkClick("/RMC-Academy")}
           >
             <img src="covers/rmc.jpg" alt="rmc" className="transition-all duration-500 ease-in-out"></img>
-            <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
           </div>
-          <div className="w-1/2 pl-6 lg:pl-12 justify-center">
-            <div className="text-md md:text-lg lg:text-xl text-gray-500 font-medium cursor-pointer nav-item"
+          <div className="md:w-1/2 md:pl-6 lg:pl-12 justify-center">
+          <div className="hidden md:block">
+              <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                  <div>GRAPHIC DESIGN</div>
+                  <div>2023</div>
+              </div>
+          </div>
+            <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
             onClick={() => handleNavLinkClick("/RMC-Academy")}
             >
               RMC Academy
             </div>
-            <div className="mt-4 text-sm md:text-lg lg:text-xl font-light">
+            <div className="mt-4 text-md md:text-lg lg:text-xl font-light">
             
             </div>
           </div>

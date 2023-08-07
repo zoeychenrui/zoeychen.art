@@ -1,8 +1,8 @@
 
 export default function GalaxyBackground() {
     return (
-      <div className="w-full min-h-screen" style={{ position: 'absolute', top: 0, left: 0 }}>
-        <svg className="" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <div className="w-full h-full" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
           <defs>
             <radialGradient id="galaxyGradient1" cx="0%" cy="40%" r="30%">
               <stop offset="0%" stopColor="#3ABAB4" stopOpacity="1" />

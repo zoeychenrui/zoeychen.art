@@ -32,7 +32,7 @@ function media() {
                 alt="drawing"
                 className="w-full object-cover transition-all duration-500 ease-in-out"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
             </div>
             <div className="w-1/2 flex">
               <img
@@ -40,7 +40,7 @@ function media() {
                 alt="drawing action"
                 className="w-full object-cover transition-all duration-500 ease-in-out"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
             </div>
             
         </div>
@@ -61,7 +61,7 @@ function media() {
             >
               <img src="media/aletheia.png" alt="reverie" 
               className="w-full transition-all duration-500 ease-in-out"></img>
-              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
             </div>
           </div>
 
@@ -81,7 +81,7 @@ function media() {
             >
               <img src="media/reverie.png" alt="reverie" 
               className="w-full object-cover transition-all duration-500 ease-in-out"></img>
-              <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-0 hover:opacity-50 transition-opacity duration-300 ease-in-out"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
             </div>
           </div>
           
