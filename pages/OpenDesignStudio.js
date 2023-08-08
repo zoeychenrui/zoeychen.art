@@ -61,7 +61,7 @@ function OpenDesignStudio() {
           SLIDE DECK
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      I designed templates for documents and slide decks. Merging a clean, geometric style with playful elements, these templates are tailored for effective and engaging workshops and classes.
+      I also designed templates for documents and slide decks. Merging a clean, geometric style with playful elements, these templates are tailored for effective and engaging workshops and classes.
       <br/><br/>
       </div>
       <img
