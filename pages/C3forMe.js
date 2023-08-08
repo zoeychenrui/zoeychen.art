@@ -3,7 +3,7 @@ import React from 'react'
 function C3forMe() {
   return (
     <div>
-    <div className="mt-20 flex flex-col justify-center w-[90%] md:w-[70%] lg:w-[60%] mx-auto">
+    <div className="mt-20 flex flex-col justify-center w-[90%] md:w-[80%] lg:w-[60%] mx-auto">
       <div className=" text-gray-400 text-3xl md:text-4xl lg:text-5xl text-center">
           Promoting equity in education, one conversation at a time!
       </div>
@@ -31,7 +31,6 @@ In a focused development cycle, we rolled out a web application that not only of
       C3forMe helps teens and adults with neurodisabilities preparing for the next steps in their lives, many of whom are assisted and guided by educators, mentors, and parents. Informed by my personal experiences tutoring a student with Autism and insights from special education professionals, we identified key user needs:
       <br/><br/>
       <div className="rounded-md shadow-lg shadow-gray-200 flex flex-col md:flex-row p-6 px-12 md:px-4 items-center">
-        
         <div className="md:w-1/2 flex flex-col text-center items-center md:mr-6">
           <img src="c3forme/speech.png" alt="power imbalance" className="h-36 w-36"/>
           <div className="text-lg mb-2">Rethinking Transition Planning</div>
@@ -51,7 +50,6 @@ In a focused development cycle, we rolled out a web application that not only of
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         GOALS
       </div>
-
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
       Understanding the unique challenges and needs of our audience shaped our primary objectives for the C3forMe web application. To ensure that the platform would be both impactful and user-friendly, our goals included:
       <br/><br/>
@@ -82,6 +80,33 @@ In a focused development cycle, we rolled out a web application that not only of
       <br/><br/>
       <i className="text-gray-500">Celebrate Achievements:</i> The journey through the application should make users feel a sense of accomplishment, marking their progress on their road to success.
       </div>
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+        IDEATION AND DESIGN
+      </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      The Ideation Process: Determining our direction through "aha" moments and strategic shifts. Our creative journey was extensively mapped and discussed within a dedicated Trello workspace, ensuring collaborative progress and organized brainstorming. 
+      <br/><br/>
+      <div className="rounded-md shadow-lg shadow-gray-200 flex flex-col md:flex-row p-4 items-center">
+        <div className="md:w-1/3 flex flex-col text-center items-center">
+          <img src="c3forme/moodboard.png" alt="moodboard" className="h-48 w-48 shadow-lg shadow-gray-200 "/>
+          <div className="text-lg mb-2 mt-4">Moodboard</div>
+          <div className="text-sm mb-4 md:mb-2">Scoping out successful features from other platforms </div>
+        </div>
+        <div className="md:w-1/3 flex flex-col text-center items-center">
+          <img src="c3forme/brainstorm.png" alt="brainstorm" className="h-48 w-48 shadow-lg shadow-gray-200"/>
+          <div className="text-lg mb-2 mt-4">Discussion</div>
+          <div className="text-sm mb-4 md:mb-2">What are your thoughts?</div>
+        </div>
+        <div className="md:w-1/3 flex flex-col text-center items-center">
+          <img src="c3forme/figma.png" alt="figma" className="h-48 w-48 shadow-lg shadow-gray-200"/>
+          <div className="text-lg mb-2 mt-4">Wireframing</div>
+          <div className="text-sm mb-4 md:mb-2">Figma Fun</div>
+        </div>
+      </div>
+      <br/><br/>
+
+      </div>
+
     </div>
     <div className="h-20">
     </div>
