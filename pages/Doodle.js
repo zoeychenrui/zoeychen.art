@@ -3,7 +3,9 @@ import React from 'react'
 function Doodle() {
   return (
     <div className="w-[80%] mx-auto ">
-      <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 ml-2">Doodle / AUGMENTED REALITY</div>
+      <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 ml-2 text-center">
+      Doodle / AUGMENTED REALITY
+      </div>
       <div className="flex flex-col mt-12 mb-10">
       <div className="flex flex-col md:flex-row">
             <div className="mr-3 ml-3 mb-3 ">
@@ -18,7 +20,7 @@ function Doodle() {
             </div>
           </div>
       <div className="">
-            <div className="mt-4 text-sm md:text-md lg:text-lg mr-8 text-gray-500">
+      <div className="mt-20 text-gray-800 font-light text-lg md:text-xl lg:text-xl">
             The place that stood out to me most when I walked around the chapel-garden loop was the Duke Gardens South Lawn, where many families and kids were. Seeing the kids run around and scream was honestly refreshing; I haven’t had that same freeing and exhilarating feeling in a while. It brought me back to one of my favorite pastimes: playing tag. As an open area of “play”, I knew I wanted to engage with this site and address something that’s been on my mind a lot recently in this season of transition – feeling disconnected from childhood.
             <br />
             <br />
@@ -29,6 +31,8 @@ function Doodle() {
             </div>
           </div>
         </div>
+        <div className="h-20">
+    </div>
     </div>
   )
 }

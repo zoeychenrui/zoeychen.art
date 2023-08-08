@@ -59,7 +59,7 @@ function Navbar() {
            
           <div className="relative flex flex-col py-8 px-4 space-y-6">
             <button
-              className="text-5xl mr-4 absolute right-10 top-10 font-extralight"
+              className="text-5xl mr-4 absolute right-10 top-10 font-extralight hover:text-gray-500"
               onClick={handleMobileMenuToggle}
             >
               <i className="">x</i>
@@ -108,7 +108,7 @@ function Navbar() {
         
       )}
       <button
-        className="md:hidden text-5xl mr-4 absolute right-10 top-10 font-extralight cursor-pointer"
+        className="md:hidden text-5xl mr-4 absolute right-10 top-10 font-extralight cursor-pointer hover:text-gray-500"
         onClick={handleMobileMenuToggle}
       >
         <i className="">+</i>

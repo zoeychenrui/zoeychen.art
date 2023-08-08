@@ -3,7 +3,9 @@ import React from 'react'
 function Aletheia() {
   return (
     <div className="w-[80%] mx-auto ">
-      <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 ml-2">Aletheia / VIRTUAL REALITY</div>
+      <div className="text-3xl md:text-4xl lg:text-5xl text-gray-400 mt-12 text-center">
+      Aletheia / VIRTUAL REALITY
+      </div>
       <div className="flex flex-col mt-12 mb-10">
       <div className="flex flex-col md:flex-row">
             <div className="mr-3 ml-3 mb-3 ">
@@ -22,7 +24,7 @@ function Aletheia() {
             </div>
           </div>
       <div className="">
-            <div className="mt-8 text-sm md:text-md lg:text-lg mr-8 text-gray-500">
+      <div className="mt-20 text-gray-800 font-light text-lg md:text-xl lg:text-xl">
             We as humans are shaped by our lived experiences. We are the product of every one of our decisions, adventures, mistakes, encounters, trials, and errors.
 The inconvenience of forgetting. The forgetting of who you are.
 This was the inspiration for Aletheia, a virtual reality experience which uses space as a physical manifestation of dementia.
@@ -51,6 +53,8 @@ and how parts would shift and change through user interaction (aka the mechanics
             </div>
           </div>
         </div>
+        <div className="h-20">
+    </div>
     </div>
   )
 }

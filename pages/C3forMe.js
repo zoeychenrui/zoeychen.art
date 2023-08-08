@@ -25,8 +25,16 @@ Tasked with the challenge of translating this concept into a tangible digital ex
 In a focused development cycle, we rolled out a web application that not only offers a diverse range of prompts and cues but also allows students to record and revisit their dialogues. 
       </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
-          UNDERSTANDING THE USER
+          USER RESEARCH 
       </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      C3forMe targets teens and adults with neurodisabilities, many of whom are assisted and guided by educators, mentors, and parents. Informed by my personal experiences tutoring a student with Autism and insights from special education professionals, we identified key user needs:
+      <br/><br/>
+      <i className="text-gray-500">Clarity, Consistency, and Routine</i>: Students with neurodisabilities often thrive on consistency and predictability. Their preference for routine highlights the importance of intuitive and reliable environments.
+      <br/><br/>
+      <i className="text-gray-500">Rethinking Transition Planning</i>: Existing transition planning models spotlight a significant power dynamic. For instance, long-form surveys, which lack genuine dialogue, often place teachers or mentors in a dominant role, with students largely relegated to passive listening. Recognizing this imbalance, there is an evident need to transition from this one-sided approach to a more equitable dialogue-driven framework.
+      </div>
+
     </div>
       
     </div>
