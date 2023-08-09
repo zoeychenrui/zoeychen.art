@@ -108,6 +108,7 @@ In a focused development cycle, we rolled out a web application that not only of
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
       Application Flow:
+      </div>
       <br/><br/>
       <div className="rounded-md shadow-lg shadow-gray-200 flex flex-col md:flex-row p-6 px-12 md:px-4 items-center">
         <div className="md:w-1/2 flex flex-col text-center items-center p-2">
@@ -169,7 +170,7 @@ In a focused development cycle, we rolled out a web application that not only of
         </div>
         <br/><br/>
       <i className="text-gray-500">Conversation Cue Cards</i>: Students can engage with transition topics and document their responses. The platform offers a diverse range of prompts and cues to help students articulate their preferences, strengths, and interests.
-      <div>
+        <div>
             <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
                 <source src="c3forme/deck.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
@@ -178,12 +179,46 @@ In a focused development cycle, we rolled out a web application that not only of
         <br/><br/>
       <i className="text-gray-500">My Dialogue Deck</i>: Students can review completed topics and previously recorded answers. This feature is designed to help students track their progress and celebrate their achievements.   
       <br/><br/>
-
+      <div>
+            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
+                <source src="c3forme/add.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <br/><br/>
+        <div className=" text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+        On the collaborator's end...
+      </div>
+      <div>
+            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
+                <source src="c3forme/dashboard.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <br/><br/>
+      <i className="text-gray-500">Add Collaborators</i>: Students can grant access to collaborators to view their recorded responses. This feature is designed to facilitate meaningful conversations between students and their mentors, teachers, and parents.
       <br/><br/>
+      <div>
+            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
+                <source src="c3forme/activity.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <br/><br/>
+      <i className="text-gray-500">Extension Activities</i>: Students can access C3forMe pdf planning activities. This feature is designed to help students further explore their interests and goals.
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+        FEEDBACK AND TESTING
+      </div>
+      <div className="mt-6 rounded-md shadow-lg shadow-gray-200 flex flex-col items-center p-6 text-center">
+          <div className="text-lg mb-2">
+          “The resources are engaging, visually appealing, comprehensive, but not overwhelming for our clients. We love C3 for Me!”
+          </div>
+          <div className="text-lg ">
+          <b>Amanda Lewis</b> <i className="text-gray-500 text-sm">Owner and Co-Founder of <a href="https://futurepathwaysfl.com/" target="_blank" className="underline">Future Pathways</a></i>
+          </div>
       </div>
 
       </div>
-
     </div>
     <div className="h-20">
     </div>
