@@ -40,6 +40,8 @@ function painting() {
         {toggleState === "Teaching" && <Teaching />}
         {aboutToggleState && <About />}
       </div>
+      <div className="h-20">
+    </div>
     </div>
   )
 }
