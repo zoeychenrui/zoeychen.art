@@ -144,80 +144,110 @@ In a focused development cycle, we rolled out a web application that not only of
       </div>
       <br/><br/>
       <div className=" text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-        After many late nights coding...
+        After many late hours coding...
       </div>
-        <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/signup.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
+      <div className="flex flex-col items-center">
+        <img src="c3forme/signup.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="Signup animation" />
+      </div>
       <br/><br/>
       <i className="text-gray-500">Create an Account</i>: Students can create an account by entering their name, email, and password. They can also choose an avatar to represent them on the platform.
-        <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/checkin.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+        <div className="flex flex-col items-center">
+          <img src="c3forme/checkin.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="checkin animation" />
         </div>
       <br/><br/>
       <i className="text-gray-500">Check-in</i>: Students can log their mood and feelings in the journal. This feature is designed to help students reflect on their emotions and identify patterns in their responses.
-        <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/conversation.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+        <div className="flex flex-col items-center">
+          <img src="c3forme/conversation.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="conversation animation" />
         </div>
         <br/><br/>
       <i className="text-gray-500">Conversation Cue Cards</i>: Students can engage with transition topics and document their responses. The platform offers a diverse range of prompts and cues to help students articulate their preferences, strengths, and interests.
-        <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/deck.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+        <div className="flex flex-col items-center">
+          <img src="c3forme/deck.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="deck animation" />
         </div>
         <br/><br/>
       <i className="text-gray-500">My Dialogue Deck</i>: Students can review completed topics and previously recorded answers. This feature is designed to help students track their progress and celebrate their achievements.   
       <br/><br/>
-      <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/add.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+      <div className="flex flex-col items-center">
+          <img src="c3forme/add.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="add animation" />
         </div>
         <br/><br/>
         <div className=" text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
         On the collaborator's end...
       </div>
       <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/dashboard.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+      <div className="flex flex-col items-center">
+          <img src="c3forme/dashboard.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="dashboard animation" />
+        </div>
         </div>
         <br/><br/>
       <i className="text-gray-500">Add Collaborators</i>: Students can grant access to collaborators to view their recorded responses. This feature is designed to facilitate meaningful conversations between students and their mentors, teachers, and parents.
       <br/><br/>
       <div>
-            <video autoPlay loop muted className="mt-10 rounded-md shadow-lg shadow-gray-200">
-                <source src="c3forme/activity.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+      <div className="flex flex-col items-center">
+          <img src="c3forme/activity.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="deck animation" />
+        </div>
         </div>
         <br/><br/>
       <i className="text-gray-500">Extension Activities</i>: Students can access C3forMe pdf planning activities. This feature is designed to help students further explore their interests and goals.
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         FEEDBACK AND TESTING
       </div>
-      <div className="mt-6 rounded-md shadow-lg shadow-gray-200 flex flex-col items-center p-6 text-center">
-          <div className="text-lg mb-2">
-          “The resources are engaging, visually appealing, comprehensive, but not overwhelming for our clients. We love C3 for Me!”
-          </div>
-          <div className="text-lg ">
-          <b>Amanda Lewis</b> <i className="text-gray-500 text-sm">Owner and Co-Founder of <a href="https://futurepathwaysfl.com/" target="_blank" className="underline">Future Pathways</a></i>
-          </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      We collaborated with special education professionals from pre-collegiate and adult transition programs to gather feedback on my design. Their insights were invaluable, leading to direct user-centered improvements in the interface. This collaboration ensured that the design met the specific needs of the special education community.
       </div>
+        <div className="mt-6 rounded-md shadow-lg shadow-gray-200 flex flex-col items-center p-6 text-center">
+            <div className="text-lg md:text-xl mb-2">
+            “The resources are engaging, visually appealing, comprehensive, but not overwhelming for our clients. We love C3 for Me!”
+            </div>
+            <div className="text-lg ">
+            <b>Amanda Lewis</b> <i className="text-gray-500 text-sm">Owner and Co-Founder of <a href="https://futurepathwaysfl.com/" target="_blank" className="underline">Future Pathways</a></i>
+            </div>
+        </div>
+        <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+        Based on the feedback, I made a few updates to the design. “Mentor dashboard” was renamed to “Collaborator dashboard” to better reflect the intended relationship dynamic. Additionally, accessibility was a primary focus, leading to the introduction of features tailored for individuals with associated disabilities, including speech-to-text, text-to-speech, and a light/dark mode toggle.
+      </div>
+      <div className="flex flex-col items-center ">
+          <img src="c3forme/darkmode.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="deck animation" />
+        </div>
+        <div className="mt-6 text-gray-800 font-light text-md md:text-lg flex flex-col items-center ">
+        Dark mode! 🌃
+      </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      The 'Collaborator dashboard' was well-received. Professionals working with clients liked how it could make discussions more efficient and keep things accountable. This dashboard allows mentors and teachers to preview their client's responses prior to a session. It's also designed for at-home use, helping with regular practice and independence.
+      </div>
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+        NEXT STEPS
+      </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      For future iterations, I've noted several enhancements to implement:
+      <br/><br/>
+      1. Introducing dynamic styling to elements for improved user experience.
+      <br/><br/>
+2. Adding prompts to remind users to click the save button once answer boxes are filled.
+<br/><br/>
+3. Ensuring consistent navigation with standardized buttons.
+<br/><br/>
+4. Offering diverse answer recording methods for better user engagement, including checkboxes, multiple choice, drag and drop, and dropdown options, moving beyond just long-form text boxes."
+      </div>
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+        REFLECTION
+      </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      Reflecting on this project, I've internalized several key takeaways:
+      <br/><br/>
+      <i className="text-gray-500">User Feedback</i>: Addressing users' specific wants and needs is the most direct path to meaningful design improvements.
+      <br/><br/>
+      <i className="text-gray-500">Know When to Stop</i>: There's always more to improve, but sometimes you have to wrap things up, especially with time and resource limitations. 
+<br/><br/>
+<i className="text-gray-500">The Essence of User-Centered Design</i>: This project provided me with a hands-on deep dive into user-centered design, cementing my appreciation for designs that start and conclude with the user in mind. From inception to real-world impact, the entire journey reinforced the importance of designing with a clear purpose.
 
+      </div>
+      <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
+        THANK YOU ❤️
+      </div>
+      <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
+      I'd like to extend my gratitude to Dr. Janae Duclos and the C3forMe team. This was my initial foray into substantial design and development for real-world users, and I'm truly grateful for the trust and space you provided. Your encouragement and openness to my creative direction has meant a lot to me. Seriously. #feelingblessed
+      </div>
       </div>
     </div>
     <div className="h-20">
