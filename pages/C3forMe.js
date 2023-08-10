@@ -220,7 +220,7 @@ In a focused development cycle, we rolled out a web application that not only of
         NEXT STEPS
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      For future iterations, I've noted several potential avenues of improvement:
+      For future iterations, I've noted several potential avenues for improvement:
       <br/><br/>
       1. Introducing dynamic styling to elements for improved user experience.
       <br/><br/>
