@@ -174,7 +174,7 @@ In a focused development cycle, we rolled out a web application that not only of
         
       <div>
       <div className="flex flex-col items-center">
-          <img src="c3forme/dashboard.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="dashboard animation" />
+          <img src="c3forme/dashboard.gif" className="rounded-md shadow-lg shadow-gray-200" alt="dashboard animation" />
         </div>
         <div className="mt-6 text-gray-800 font-light text-md md:text-lg flex flex-col items-center ">
         On the collaborator's end...
@@ -189,7 +189,7 @@ In a focused development cycle, we rolled out a web application that not only of
         </div>
         </div>
         <br/><br/>
-      <i className="text-gray-500">Extension Activities</i>: Students can access C3forMe pdf planning activities. This feature is designed to help students further explore their interests and goals.
+      <i className="text-gray-500">Extension Activities</i>: Access to C3forMe pdf planning activities. The activities are designed to help students further explore their interests and goals.
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         FEEDBACK AND TESTING
       </div>
