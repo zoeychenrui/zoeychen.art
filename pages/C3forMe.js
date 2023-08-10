@@ -150,22 +150,22 @@ In a focused development cycle, we rolled out a web application that not only of
         <img src="c3forme/signup.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="Signup animation" />
       </div>
       <br/><br/>
-      <i className="text-gray-500">Create an Account</i>: Students can create an account by entering their name, email, and password. They can also choose an avatar to represent them on the platform.
+      <i className="text-gray-500">Create an Account</i>: Students can set up an account using their name, email, and password. They can choose an avatar, create a username, and select their site location for organizational purposes.
         <div className="flex flex-col items-center">
           <img src="c3forme/checkin.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="checkin animation" />
         </div>
       <br/><br/>
-      <i className="text-gray-500">Check-in</i>: Students can log their mood and feelings in the journal. This feature is designed to help students reflect on their emotions and identify patterns in their responses.
+      <i className="text-gray-500">Check-in</i>: Each time students log into the application, they're prompted to check in and chronicle their current moods and feelings. This feature not only promotes self-reflection and self-regulation but also allows students to view their check-in history, helping them recognize and understand emotional patterns over time.
         <div className="flex flex-col items-center">
           <img src="c3forme/conversation.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="conversation animation" />
         </div>
         <br/><br/>
-      <i className="text-gray-500">Conversation Cue Cards</i>: Students can engage with transition topics and document their responses. The platform offers a diverse range of prompts and cues to help students articulate their preferences, strengths, and interests.
+      <i className="text-gray-500">Conversation Cue Cards</i>: These cards provide students with prompts on transition topics, helping them think about and document their preferences, strengths, and interests. The varied prompts encourage students to think more critically and articulate their thoughts. To accommodate users with special needs, the cards are equipped with both speech-to-text and text-to-speech functionalities.
         <div className="flex flex-col items-center">
           <img src="c3forme/deck.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="deck animation" />
         </div>
         <br/><br/>
-      <i className="text-gray-500">My Dialogue Deck</i>: Students can review completed topics and previously recorded answers. This feature is designed to help students track their progress and celebrate their achievements.   
+      <i className="text-gray-500">My Dialogue Deck</i>: Students can revisit their completed topics and associated responses. Each finished topic is marked with a medal, offering a visual representation of their ongoing achievements and progress.
       <br/><br/>
       <div className="flex flex-col items-center">
           <img src="c3forme/add.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="add animation" />
@@ -181,7 +181,7 @@ In a focused development cycle, we rolled out a web application that not only of
       </div>
         </div>
         <br/><br/>
-      <i className="text-gray-500">Add Collaborators</i>: Students can grant access to collaborators to view their recorded responses. This feature is designed to facilitate meaningful conversations between students and their mentors, teachers, and parents.
+      <i className="text-gray-500">Add Collaborators</i>: Students can grant access to their recorded responses for collaborators like mentors, teachers, or parents. This feature enhances the efficiency of discussions by letting professionals preview responses before sessions.
       <br/><br/>
       <div>
       <div className="flex flex-col items-center">
@@ -194,7 +194,7 @@ In a focused development cycle, we rolled out a web application that not only of
         FEEDBACK AND TESTING
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      We collaborated with special education professionals from pre-collegiate and adult transition programs to gather feedback on my design. Their insights were invaluable, leading to direct user-centered improvements in the interface. This collaboration ensured that the design met the specific needs of the special education community.
+      We collaborated with special education professionals from pre-collegiate and adult transition programs to gather feedback on my design. Their insights led to direct user-centered improvements in the interface.
       </div>
         <div className="mt-6 rounded-md shadow-lg shadow-gray-200 flex flex-col items-center p-6 text-center">
             <div className="text-lg md:text-xl mb-2">
@@ -205,7 +205,7 @@ In a focused development cycle, we rolled out a web application that not only of
             </div>
         </div>
         <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-        Based on the feedback, I made a few updates to the design. “Mentor dashboard” was renamed to “Collaborator dashboard” to better reflect the intended relationship dynamic. Additionally, accessibility was a primary focus, leading to the introduction of features tailored for individuals with associated disabilities, including speech-to-text, text-to-speech, and a light/dark mode toggle.
+        Based on their feedback, I made a few updates to the design. “Mentor dashboard” was renamed to “Collaborator dashboard” to better reflect the intended relationship dynamic. Accessibility was a primary focus, leading to the introduction of accessibility features tailored for individuals with associated disabilities, including speech-to-text, text-to-speech, and a light/dark mode toggle.
       </div>
       <div className="flex flex-col items-center ">
           <img src="c3forme/darkmode.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="deck animation" />
@@ -214,7 +214,7 @@ In a focused development cycle, we rolled out a web application that not only of
         Dark mode! 🌃
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      The 'Collaborator dashboard' was well-received. Professionals working with clients liked how it could make discussions more efficient and keep things accountable. This dashboard allows mentors and teachers to preview their client's responses prior to a session. It's also designed for at-home use, helping with regular practice and independence.
+      The 'Collaborator dashboard' was well-received. Professionals working with clients liked how it could make discussions more efficient and keep things accountable. It's also designed for at-home use, helping with regular practice and independence.
       </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         NEXT STEPS
@@ -247,7 +247,7 @@ In a focused development cycle, we rolled out a web application that not only of
         THANK YOU ❤️
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      I'd like to extend my gratitude to Dr. Janae Duclos and the C3forMe team. This was my initial foray into substantial design and development for real-world users, and I'm truly grateful for the trust and space you provided. Your encouragement and openness to my creative direction has meant a lot to me. Seriously. #feelingblessed
+      I'd like to extend my gratitude to Dr. Janae Duclos and the C3forMe team. This was my initial foray into substantial design and development for real-world users, and I'm incredibly grateful for the trust and space you provided. Your encouragement and openness to my creative direction has meant a lot to me. #feelingblessed
       </div>
       </div>
     </div>
