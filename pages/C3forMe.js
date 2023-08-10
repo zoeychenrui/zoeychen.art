@@ -222,13 +222,14 @@ In a focused development cycle, we rolled out a web application that not only of
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
       For future iterations, I've noted several potential avenues for improvement:
       <br/><br/>
-      1. Introducing dynamic styling to elements for improved user experience.
+      1. Adding more accessibility features, such as adjustable fonts and colors.
       <br/><br/>
-2. Adding prompts to remind users to click the save button once answer boxes are filled.
+2. Offering diverse answer recording methods for better user engagement, including checkboxes, multiple choice, drag and drop, and dropdown options, moving beyond just long-form text boxes.
 <br/><br/>
 3. Ensuring consistent navigation with standardized buttons.
 <br/><br/>
-4. Offering diverse answer recording methods for better user engagement, including checkboxes, multiple choice, drag and drop, and dropdown options, moving beyond just long-form text boxes.
+4. Adding prompts to remind users to click the save button once answer boxes are filled.
+
       </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         REFLECTION
@@ -236,7 +237,7 @@ In a focused development cycle, we rolled out a web application that not only of
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
       Reflecting on this project, I've internalized several key takeaways:
       <br/><br/>
-      <i className="text-gray-500">User Feedback</i>: Addressing users' specific wants and needs is the most direct path to meaningful design improvements.
+      <i className="text-gray-500">User Feedback</i>: Implementing features that address users' specific wants and needs is the most direct path to meaningful design improvements.
       <br/><br/>
       <i className="text-gray-500">Know When to Stop</i>: There's always more to improve, but sometimes you have to wrap things up, especially with time and resource limitations. 
 <br/><br/>
