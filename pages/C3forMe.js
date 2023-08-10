@@ -171,13 +171,14 @@ In a focused development cycle, we rolled out a web application that not only of
           <img src="c3forme/add.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="add animation" />
         </div>
         <br/><br/>
-        <div className=" text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-        On the collaborator's end...
-      </div>
+        
       <div>
       <div className="flex flex-col items-center">
           <img src="c3forme/dashboard.gif" className="mt-10 rounded-md shadow-lg shadow-gray-200" alt="dashboard animation" />
         </div>
+        <div className="mt-6 text-gray-800 font-light text-md md:text-lg flex flex-col items-center ">
+        On the collaborator's end...
+      </div>
         </div>
         <br/><br/>
       <i className="text-gray-500">Add Collaborators</i>: Students can grant access to collaborators to view their recorded responses. This feature is designed to facilitate meaningful conversations between students and their mentors, teachers, and parents.
@@ -219,7 +220,7 @@ In a focused development cycle, we rolled out a web application that not only of
         NEXT STEPS
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      For future iterations, I've noted several enhancements to implement:
+      For future iterations, I've noted several potential avenues of improvement:
       <br/><br/>
       1. Introducing dynamic styling to elements for improved user experience.
       <br/><br/>
@@ -227,7 +228,7 @@ In a focused development cycle, we rolled out a web application that not only of
 <br/><br/>
 3. Ensuring consistent navigation with standardized buttons.
 <br/><br/>
-4. Offering diverse answer recording methods for better user engagement, including checkboxes, multiple choice, drag and drop, and dropdown options, moving beyond just long-form text boxes."
+4. Offering diverse answer recording methods for better user engagement, including checkboxes, multiple choice, drag and drop, and dropdown options, moving beyond just long-form text boxes.
       </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
         REFLECTION
