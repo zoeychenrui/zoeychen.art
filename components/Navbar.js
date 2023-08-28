@@ -37,8 +37,8 @@ function Navbar() {
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/vr-ar")}`} onClick={() => handleNavLinkClick("/vr-ar")}>
             VR/AR
             </li>
-            <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} onClick={() => handleNavLinkClick("/resume")}>
-            resume
+            <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} >
+            <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
             </li>
         </ul>
         <div className="hidden md:flex items-center space-x-6 mr-8 mt-2 absolute right-10">
