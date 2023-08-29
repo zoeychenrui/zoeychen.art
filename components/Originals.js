@@ -1,26 +1,30 @@
-import React from 'react'
-import Image from "next/image";
+import React, { useState } from 'react';
 
 function Piece(props) {
+  const [isSrcLoaded, setSrcLoaded] = useState(false);
+  const [isSrc2Loaded, setSrc2Loaded] = useState(false);
+
   return (
-    <figure class="group cursor-pointer mt-4">
-      <div class="relative overflow-hidden">
+    <figure className="group cursor-pointer mt-4">
+      <div className="relative overflow-hidden">
         <img
           src={props.src2}
-          class="ease absolute z-0 h-full w-full object-cover
-          opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+          className={`ease absolute z-0 h-full w-full object-cover 
+            opacity-0 transition-opacity duration-700 group-hover:opacity-100
+            ${isSrc2Loaded ? 'image-loaded' : 'image-loading'}`}
           alt="Piece"
-          
+          onLoad={() => setSrc2Loaded(true)}
         />
-        <img 
-        src={props.src} 
-        class="h-full w-full object-cover" 
-        alt="Piece" 
+        <img
+          src={props.src}
+          className={`h-full w-full object-cover 
+            ${isSrcLoaded ? 'image-loaded' : 'image-loading'}`}
+          alt="Piece"
+          onLoad={() => setSrcLoaded(true)}
         />
       </div>
-
       <figcaption className="mt-1">
-        <span class=" text-gray-500">{props.text}</span>
+        <span className="text-gray-500">{props.text}</span>
       </figcaption>
     </figure>
   );
@@ -61,8 +65,6 @@ function Originals() {
             text="cole"
             path="/originals"
           />
-          
-          
         </div>
         <div class="mr-5 ml-5 mb-2">
         <Piece
@@ -96,10 +98,7 @@ function Originals() {
             text="missy"
             path="/originals"
           />
-         
         </div>
-        
-       
       </div>
     </div>
   )

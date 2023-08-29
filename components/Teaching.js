@@ -7,6 +7,7 @@ import { storage } from './Config';
 function Teaching() {
   const [allImages, setImages] = useState([]);
   const [selectedGallery, setSelectedGallery] = useState(null);
+  const [imagesLoaded, setImagesLoaded] = useState(0);
   
   const galleries = [
     {
@@ -204,6 +205,7 @@ function Teaching() {
   const handleGalleryClick = (gallery) => {
     setSelectedGallery(gallery);
     setImages([]); // Reset images state
+    setImagesLoaded(0); // Reset loaded images count
     getFromFirebase(gallery.folder);
   };
 
@@ -218,16 +220,26 @@ function Teaching() {
       })
       .catch((error) => {
         console.error(`Error while retrieving images from folder "${folder}": `, error);
+        setImagesLoaded(0);  // Reset loaded images count on error
       });
   };
-console.log(allImages);
+
 
 useEffect(() => {
 }, [selectedGallery]);
 
+const totalImages = allImages.length;
+const handleImageLoad = () => {
+  console.log('Image loaded');
+  setImagesLoaded(prev => prev + 1);
+};
+
+useEffect(() => {
+  console.log('Images Loaded:', imagesLoaded, 'Total Images:', totalImages);
+}, [imagesLoaded, totalImages]);
+
   return (
     <div>
-
     <div className={`flex w-[95%] md:w-[85%] mx-auto mt-12 lg:mt-24 mb-48 `}>
   <div className="w-[35%] p-4 mr-2 md:mr-6">
     <h2 className="text-md md:text-lg lg:text-xl mb-4 px-2 mt-2 ">Galleries</h2>
@@ -248,21 +260,33 @@ useEffect(() => {
   <div className="w-[50%]">
     {selectedGallery ? (
       <>
-        <h2 className={`text-md md:text-lg lg:text-xl mb-4 font-light`}>{selectedGallery.name} {selectedGallery.date}</h2>
-        <div className="flex flex-wrap">
-  {allImages.map((url, index) => (
-    <div className="w-full sm:w-1/2 md:w-1/3 p-1" key={index}>
-      <img src={url} alt="From Firebase" className="w-full h-auto"/>
-    </div>
-  ))}
-</div>
-      </>
-    ) : (
+      <h2 className={`text-md md:text-lg lg:text-xl mb-4 font-light`}>{selectedGallery.name} {selectedGallery.date}</h2>
+      
+      {/* Show spinner until all images are loaded */}
+      {imagesLoaded < totalImages && (
+        <div className="flex justify-center items-center min-h-screen">
+          <div className="spinner"></div>
+        </div>
+      )}
+
+      <div className="flex flex-wrap">
+        {allImages.map((url, index) => (
+          <div className="w-full sm:w-1/2 md:w-1/3 p-1" key={index}>
+            <img 
+              src={url} 
+              alt="From Firebase" 
+              className="w-full h-auto" 
+              onLoad={handleImageLoad}  // Increment the loaded images count
+            />
+          </div>
+        ))}
+      </div>
+    </>
+  ) : (
       <p className="text-md md:text-lg lg:text-xl font-light">Select a class to see the student gallery</p>
     )}
   </div>
 </div>
-  
     </div>
   )
 }
