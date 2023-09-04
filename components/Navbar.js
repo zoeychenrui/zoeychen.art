@@ -37,6 +37,9 @@ function Navbar() {
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/vr-ar")}`} onClick={() => handleNavLinkClick("/vr-ar")}>
             VR/AR
             </li>
+            <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/self")}`} onClick={() => handleNavLinkClick("/self")}>
+            self
+            </li>
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} >
             <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
             </li>
@@ -84,10 +87,16 @@ function Navbar() {
                 VR/AR
               </li>
               <li
-                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} 
-                onClick={() => handleNavLinkClick("/resume")}
+               className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/self")}`} 
+                onClick={() => handleNavLinkClick("/self")}
               >
-                resume
+                self
+              </li>
+              <li
+                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} 
+               
+              >
+                <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
               </li>
               <li className="flex flex-row pt-12">
               <a href="https://github.com/zoeychenrui" target="_blank" rel="noopener noreferrer">
