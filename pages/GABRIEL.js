@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GABRIEL() {
+function Gabriel() {
   return (
     <div>
       <div className="mt-20 flex flex-col justify-center w-[90%] md:w-[80%] lg:w-[60%] mx-auto">
@@ -16,4 +16,4 @@ function GABRIEL() {
   )
 }
 
-export default GABRIEL
+export default Gabriel
