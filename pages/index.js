@@ -108,7 +108,7 @@ export default function Home() {
             </div>
         </div>
         <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
-           onClick={() => handleNavLinkClick("/Gabriel")}
+           onClick={() => handleNavLinkClick("/Gabriel-web")}
           >
             <img src="covers/gabriel.png" alt="gabriel" className="transition-all duration-500 ease-in-out"></img>
             <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
           </div>
             <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
-            onClick={() => handleNavLinkClick("/Gabriel")}
+            onClick={() => handleNavLinkClick("/Gabriel-web")}
             >
               Gabriel
             </div>
