@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 function Gabriel() {
-  return (
-    <div>
+    return (
+        <div>
       <div className="mt-20 flex flex-col justify-center w-[90%] md:w-[80%] lg:w-[60%] mx-auto">
       <div className=" text-gray-400 text-3xl md:text-4xl lg:text-5xl text-center">
          Coming soon!
@@ -13,7 +13,6 @@ function Gabriel() {
       <img src="gabriel/thanksgiving.png" alt="thanksgiving-foods" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
       </div>
     </div>
-  )
+    )
 }
-
 export default Gabriel
