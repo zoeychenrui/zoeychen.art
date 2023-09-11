@@ -85,6 +85,13 @@ function rmc() {
                 className="w-full object-cover"
               />
             </div>
+            <div className="w-1/2 ml-4 flex">
+              <img
+                src="rmc/2023rmf.jpg"
+                alt="2023rmf"
+                className="w-full object-cover"
+              />
+            </div>
         </div>
         <div className="h-20">
 
