@@ -40,9 +40,9 @@ function Navbar() {
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/self")}`} onClick={() => handleNavLinkClick("/self")}>
             self
             </li>
-            <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} >
+            {/* <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} >
             <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
-            </li>
+            </li> */}
         </ul>
         <div className="hidden md:flex items-center space-x-6 mr-8 mt-2 absolute right-10">
             <a href="https://github.com/zoeychenrui" target="_blank" rel="noopener noreferrer">
@@ -92,12 +92,12 @@ function Navbar() {
               >
                 self
               </li>
-              <li
+              {/* <li
                 className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} 
                
               >
                 <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
-              </li>
+              </li> */}
               <li className="flex flex-row pt-12">
               <a href="https://github.com/zoeychenrui" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-800 text-2xl cursor-pointer mr-8" />
