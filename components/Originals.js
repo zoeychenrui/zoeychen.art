@@ -47,6 +47,12 @@ function Originals() {
             text="pumpkin"
             path="/originals"
           />
+          <Piece
+            src="originals/pacific.jpg"
+            src2="originals/pacific.jpg"
+            text="across the pacific"
+            path="/originals"
+          />
            <Piece
             src="originals/toby-art.jpg"
             src2="originals/toby-pic.jpg"
