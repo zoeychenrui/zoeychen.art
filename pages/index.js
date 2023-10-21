@@ -110,7 +110,7 @@ export default function Home() {
         <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
            onClick={() => handleNavLinkClick("/Gabriel-web")}
           >
-            <img src="covers/gabriel.png" alt="gabriel" className="transition-all duration-500 ease-in-out"></img>
+            <img src="gabriel/fillable.png" alt="gabriel" className="transition-all duration-500 ease-in-out"></img>
             <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
           </div>
           <div className="md:w-1/2 md:pl-6 lg:pl-12 justify-center">
@@ -126,7 +126,7 @@ export default function Home() {
               Gabriel
             </div>
             <div className="mt-4 text-lg md:text-xl font-light">
-            Developing the client and web interface for a data research tool powered by LLMs
+            Website for a data research tool powered by large language models
             </div>
           </div>
         </div>
