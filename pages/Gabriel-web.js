@@ -22,9 +22,9 @@ function Gabriel() {
       <br/><br/>
       Gabriel leverages large language models (LLMs) to reveal meaningful connections through textual analysis and feature recognition. With Gabriel, users can:
 <br/><br/>
-1. Evaluate Categories: Rate a group of items, like 'Thanksgiving foods', based on specific characteristics such as 'flavors'.
+1. Evaluate Categories: Rate a group of items, like 'Thanksgiving foods', on attributes such as 'flavors' (e.g. 'sour', 'savory', 'sweet').
 <br/><br/>
-2. Personalized Analysis: Beyond our presets, users can upload their own texts and have Gabriel assess them based on selected attributes.
+2. Personalized Analysis: Users can upload their own texts, like a set of newspaper articles, and have Gabriel assess them on attributes based on the content, like how much it references certain financial assets (e.g. oil, tech, healthcare).
 <br/><br/>
 3. Tailored Video Suggestions: Provide context, and Gabriel will curate a list of video recommendations. This is achieved by cross-referencing video transcripts with a synthesized transcript that matches the user's input.
 <img src="gabriel/learn.png" alt="tailored video suggestions" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
@@ -32,7 +32,7 @@ function Gabriel() {
         Tailored Video Suggestions
       </div>
 <br/><br/>
-Originally, Gabriel started as a Flask API. Recognizing the need for a more user-friendly interface, especially for researchers not well-versed in coding, I built the Gabriel website. Such platforms that employ generative processing are gaining traction as they foster greater user interaction and contribution. The goal is to empower users to generate in-depth ratings on topics they'd like to explore further.
+Originally, Gabriel started as a Flask API. Recognizing the need for a GUI that doesn't require algorithm expertise, I built the Gabriel website. Such platforms that employ generative processing foster greater user interaction and contribution. The goal is to empower users to generate ratings on topics they'd like to explore further.
       </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
 DEVELOPING THE RATING FEATURE
