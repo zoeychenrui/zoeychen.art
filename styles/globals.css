@@ -102,3 +102,12 @@ body {
   100% { transform: rotate(360deg); }
 }
 
+/* Custom CSS for white bullet points */
+ul.white-bullets li::before {
+  content: '\2022'; /* Unicode for the bullet symbol */
+  color: white; /* Tailwind class for white text */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+

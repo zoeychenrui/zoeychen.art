@@ -98,6 +98,36 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
+        <div className="block md:hidden">
+            <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                <div>UI/UX DESIGN</div>
+                <div>2023</div>
+            </div>
+        </div>
+        <div className="md:w-1/2 cursor-pointer relative overflow-hidden"
+            onClick={() => handleNavLinkClick("/InsightEngine")}>
+          <img src="covers/insightEngine.png" alt="insight engine" className="transition-all duration-500 ease-in-out"/>
+          <div className="absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
+        </div>
+        <div className="md:w-1/2 md:pl-6 lg:pl-12 md:justify-center md">
+          <div className="hidden md:block">
+              <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
+                  <div>UI/UX DESIGN</div>
+                  <div>2023</div>
+              </div>
+          </div>
+          <div className="mt-6 text-2xl md:text-2xl lg:text-3xl text-gray-500 cursor-pointer nav-item"
+              onClick={() => handleNavLinkClick("/InsightEngine")}>
+            Insight Engine 2.0
+          </div>
+          <div className="mt-4 text-lg md:text-xl font-light">
+          Imagining interfaces for a knowledge integration platform 
+          </div>
+        </div>
+      </div>
+
         <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20">
         <div className="block md:hidden">
             <div className="flex flex-row justify-between text-gray-400 font-medium mb-6">
@@ -128,8 +158,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        
 
         <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] lg:w-[70%] mx-auto mt-20 mb-20">
         <div className="block md:hidden">
