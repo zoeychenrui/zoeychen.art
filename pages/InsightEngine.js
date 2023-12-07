@@ -85,7 +85,7 @@ function InsightEngine() {
         IDEATION
       </div>
       <div className="mt-6 text-gray-800 font-light text-lg md:text-xl lg:text-xl ">
-      I used Midjourney to imagine two potential visualization interfaces, a 3D point cloud system and Knowledge Tree system, and as described in Professor Seaman’s paper. 
+      I used Midjourney to imagine two potential visualization interfaces, a 3D point cloud system and Knowledge Tree system, as described in Professor Seaman’s paper. 
       <br/><br/>
       <div className="bg-black text-white p-8 rounded-md">
       <h1 className="text-4xl font-bold mb-10">
