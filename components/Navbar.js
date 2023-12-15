@@ -37,20 +37,23 @@ function Navbar() {
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/vr-ar")}`} onClick={() => handleNavLinkClick("/vr-ar")}>
             VR/AR
             </li>
+            <li
+                className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/photo")}`} 
+               
+              >
+                <a href="http://lensonlakewood.com/stories/Zoey_Chen.html" target="_blank" rel="noopener noreferrer">photo</a>
+            </li>
             <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/self")}`} onClick={() => handleNavLinkClick("/self")}>
             self
             </li>
-            {/* <li className={`mr-4 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} >
-            <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
-            </li> */}
         </ul>
         <div className="hidden md:flex items-center space-x-6 mr-8 mt-2 absolute right-10">
             <a href="https://github.com/zoeychenrui" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-800 text-2xl cursor-pointer" />
             </a>
-            <a href="https://www.linkedin.com/in/zoey-chen/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.linkedin.com/in/zoey-chen/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-gray-800 text-2xl cursor-pointer" />
-            </a>
+            </a> */}
             <a href="mailto:zoeychen2013@gmail.com" target="_blank" rel="noopener noreferrer">
             <HiOutlineMail className="text-gray-800 text-2xl cursor-pointer" />
             </a>
@@ -87,24 +90,24 @@ function Navbar() {
                 VR/AR
               </li>
               <li
+                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/photo")}`} 
+               
+              >
+                <a href="http://lensonlakewood.com/stories/Zoey_Chen.html" target="_blank" rel="noopener noreferrer">photo</a>
+              </li>
+              <li
                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/self")}`} 
                 onClick={() => handleNavLinkClick("/self")}
               >
                 self
               </li>
-              {/* <li
-                className={`text-3xl pt-10 cursor-pointer nav-item ${getNavLinkClass("/resume")}`} 
-               
-              >
-                <a href="https://drive.google.com/file/d/1CvaeJEz-xKl4irsst6jEtoBQSNtmWl4B/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>
-              </li> */}
               <li className="flex flex-row pt-12">
               <a href="https://github.com/zoeychenrui" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-800 text-2xl cursor-pointer mr-8" />
             </a>
-            <a href="https://www.linkedin.com/in/zoey-chen/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.linkedin.com/in/zoey-chen/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-gray-800 text-2xl cursor-pointer mr-8" />
-            </a>
+            </a> */}
             <a href="mailto:zoeychen2013@gmail.com" target="_blank" rel="noopener noreferrer">
             <HiOutlineMail className="text-gray-800 text-2xl cursor-pointer" />
             </a>

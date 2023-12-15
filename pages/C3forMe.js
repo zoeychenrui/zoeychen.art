@@ -8,12 +8,19 @@ function C3forMe() {
           Promoting equity in education, one conversation at a time!
       </div>
       <div className="mt-10 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
-      C3forMe  &nbsp;•  &nbsp;Designer and Developer  &nbsp;•  &nbsp;May - June 2023
+      C3forMe  &nbsp;•  &nbsp;Developer and Designer &nbsp;•  &nbsp;May - December 2023
       </div>
       <div className="mt-6 text-gray-800 text-center font-light text-lg md:text-xl lg:text-2xl ">
       Tools: Figma, Next.js, Tailwind CSS, Firebase Authentication, Firestore
       </div>
+      <img src="covers/c3forme2.png" alt="c3forme2" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
+      <div className="mt-6 text-gray-800 font-light text-md md:text-lg flex flex-col items-center ">
+        Second iteration underway! 🚧
+      </div>
       <img src="covers/c3forme.png" alt="c3forme" className="mt-10 rounded-md shadow-lg shadow-gray-200"/>
+      <div className="mt-6 text-gray-800 font-light text-md md:text-lg flex flex-col items-center ">
+        First iteration 🔆
+      </div>
       <div className="mt-12 text-gray-400 text-lg md:text-xl lg:text-2xl font-medium">
           PROJECT OVERVIEW
       </div>

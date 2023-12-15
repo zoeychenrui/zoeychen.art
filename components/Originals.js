@@ -74,6 +74,12 @@ function Originals() {
         </div>
         <div class="mr-5 ml-5 mb-2">
         <Piece
+            src="originals/lilee-art.jpg"
+            src2="originals/lilee-pic.jpg"
+            text="lilee"
+            path="/originals"
+          />
+        <Piece
             src="originals/benji-art.jpg"
             src2="originals/benji-pic.jpg"
             text="leila and benji"

@@ -22,7 +22,7 @@ function self() {
     cherishing fellowship at <a href="https://www.makenewnc.org/?utm_source=wordpress#" target="_blank" rel="noopener noreferrer" class="cursor-pointer link-item text-[#3ABAB4]">church</a>,
     <br/>
     and in all of the above, doing life with the lovely people I've been blessed with in all corners of my life 🩵
-    <div className="h-20"></div>
+    <div className="h-16"></div>
     </div>
 
     </div>
